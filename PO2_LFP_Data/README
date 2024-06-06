@@ -1,0 +1,5 @@
+Description: PO2 and LFP band data for all 43 resting state experiments. The LFP data is smoothed and normalized in accordance with the Methodology descriped in manuscript. Data has been detrended to remove any potential slow drift.
+
+File names: Filenames consist of "[experiment type]_exp[experiment number].csv". Experiment type is either "rs" (resting state) or "opto" (optogenetics). Experiment number denotes the unique number identifier for each distinct experiment per each experiment type. Note that all LFP data is from resting state.
+
+Data Format: The columns denote the time (in seconds), PO2 channel (A.u.), LFP band data (A.u.) for the first column, second column, and third column to the last column, respectively. LFP band data, in order, consists of the delta, theta, alpha, beta, gamma1, gamma2, and gamma3 bands, respectively. See Methods in paper for details on frequency binning for each band.
