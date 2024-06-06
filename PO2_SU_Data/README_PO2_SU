@@ -1,0 +1,5 @@
+Description: PO2 and single unit data for all 43 resting state experiments and a single optogenetic experiment. The single unit data is smoothed and normalized in accordance with the Methodology descriped in manuscript. Data has been detrended to remove any potential slow drift.
+
+File names: Filenames consist of "[experiment type]_exp[experiment number].csv". Experiment type is either "rs" (resting state) or "opto" (optogenetics). Experiment number denotes the unique number identifier for each distinct experiment per each experiment type. Ex: "opto_exp1" and "rs_exp1" denote two seperate experiments, one for optogenetics and the other for resting state data.
+
+Data Format: The columns denote the time (in seconds), PO2 channel (A.u.), Single unit data (A.u.) for the first column, second column, and third column to the last column, respectively.  
